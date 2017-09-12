@@ -57,7 +57,9 @@ export const asyncRouterMap = [
         path: 'index',
         component: Table,
         name: 'Table',
-        meta: { role: ['admin'] }
+        meta: { 
+          role: ['admin']
+        }
       }
     ]
   },
