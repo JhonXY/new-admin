@@ -34,5 +34,12 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style rel="stylesheet/scss" lang="scss" scoped>
+.svg-icon {
+  margin-right: 10px;
+}
+.hideSidebar .menu-indent{
+  display: block;
+  text-indent: 10px;
+}
 </style>

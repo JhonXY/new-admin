@@ -1,5 +1,5 @@
 // 封装cookies操作
-import cookies from 'js-cookie'
+import Cookies from 'js-cookie'
 
 const Token = 'Admin-Token'
 

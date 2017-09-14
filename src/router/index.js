@@ -4,10 +4,16 @@ import Layout from '@/views/layout/Layout'
 import dashboard from '@/views/dashboard/index'
 import Form from '@/views/page/form'
 import Table from '@/views/table/index'
+import Login from '@/views/login/index'
 
 Vue.use(Router)
 
 export const constantRouterMap = [
+  {
+    path: '/login',
+    component: Login,
+    hidden: true 
+  },
   {
     path: '/',
     component: Layout,
@@ -57,7 +63,7 @@ export const asyncRouterMap = [
         path: 'index',
         component: Table,
         name: 'Table',
-        meta: { 
+        meta: {
           role: ['admin']
         }
       }
